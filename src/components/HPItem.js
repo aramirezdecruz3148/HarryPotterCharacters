@@ -35,6 +35,7 @@ class HPItem extends Component {
                     <p class="card-text">House: ${character.house}</p>
                     <p class="card-text">School: ${character.school}</p>
                     <p class="card-text">Blood Status: ${character.bloodStatus}</p>
+                    <img id="crest" src="../../assets/${character.house}.jpg">
                 </section>
             </li> 
             `;

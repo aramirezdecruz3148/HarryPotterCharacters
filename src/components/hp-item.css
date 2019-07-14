@@ -29,9 +29,10 @@
     display: none;
 }
 
-img {
-    height: 350px;
-    width: 300px;
+#crest {
+    height: 85px;
+    width: auto;
+    margin: 0px 0px 0px 110px;
 }
 
 .hp-item:hover {
