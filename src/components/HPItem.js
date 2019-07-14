@@ -7,7 +7,7 @@ class HPItem extends Component {
         if(character.bloodStatus === 'muggle') {
             return /*html*/`
                 <li class="hp-item">
-                    <h3>${character.name}</h3>
+                    <h3>${character.name} 👣</h3>
                     <section class="hidden">
                         <hr>
                         <p class="card-text">Blood Status: ${character.bloodStatus}</p>
@@ -17,7 +17,7 @@ class HPItem extends Component {
         } else if (character.house === undefined || character.school === undefined) {
             return /*html*/`
                 <li class="hp-item">
-                    <h3>${character.name}</h3>
+                    <h3>${character.name} 👣</h3>
                     <section class="hidden">
                         <hr>
                         <p class="card-text">House: unknown</p>
@@ -29,7 +29,7 @@ class HPItem extends Component {
         } else {
         return /*html*/`
             <li class="hp-item">
-                <h3>${character.name}</h3>
+                <h3>${character.name} 👣</h3>
                 <section class="hidden">
                     <hr>
                     <p class="card-text">House: ${character.house}</p>
