@@ -1,4 +1,4 @@
-import Component from './Component.js';
+import Component from '../shared/Component.js';
 
 class HPItem extends Component {
 

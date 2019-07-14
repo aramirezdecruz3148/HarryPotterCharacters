@@ -1,11 +1,11 @@
-import Component from './Component.js';
+import Component from '../shared/Component.js';
 
 class Reset extends Component {
 
     renderTemplate() {
         return /*html*/`
             <section>
-                <button id="reset"><a href="">Reset to Show All Characters</a></button>
+                <button id="reset"><a href="">Show All Characters</a></button>
             </section>
         `;
     }

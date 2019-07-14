@@ -1,5 +1,5 @@
-import Component from './Component.js';
-import hashStorage from '../services/hash-storage.js';
+import Component from '../shared/Component.js';
+import hashStorage from '../../services/hash-storage.js';
 
 class FilterHouse extends Component {
     render() {

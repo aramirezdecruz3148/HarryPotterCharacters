@@ -1,10 +1,10 @@
-import Component from './Component.js';
+import Component from '../shared/Component.js';
 import FilterOrg from './FilterOrg.js';
 import FilterHouse from './FilterHouse.js';
 import FilterBlood from './FilterBlood.js';
 import Reset from './Reset.js';
 
-class Header extends Component {
+class CharacterHeader extends Component {
     render() {
         const header = this.renderDOM();
         const span = header.querySelector('span');
@@ -33,4 +33,4 @@ class Header extends Component {
     }
 }
 
-export default Header;
+export default CharacterHeader;

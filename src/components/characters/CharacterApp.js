@@ -1,19 +1,18 @@
-import Component from './Component.js';
-import Header from './Header.js';
+import Component from '../shared/Component.js';
+import CharacterHeader from './CharacterHeader.js';
 import HPList from './hpList.js';
-import hpApi from '../services/hpApi.js';
-import Loading from './Loading.js';
+import hpApi from '../../services/hpApi.js';
+import Loading from '../shared/Loading.js';
 
 
-class App extends Component {
+class CharacterApp extends Component {
 
     render() {
         const dom = this.renderDOM();
 
-        const header = new Header();
-        const headerDOM = header.render();
+        const characterHeader = new CharacterHeader();
         const main = dom.querySelector('main');
-        dom.insertBefore(headerDOM, main);
+        dom.insertBefore(characterHeader.render(), main);
 
         const hpList = new HPList({ characters: [] });
         main.appendChild(hpList.render());
@@ -56,4 +55,4 @@ class App extends Component {
     }
 }
 
-export default App;
+export default CharacterApp;
