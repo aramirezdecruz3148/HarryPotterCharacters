@@ -32,6 +32,7 @@ class FilterOrg extends Component {
             <section>
                 <form class="form-org">
                     <select class="org-filter" name="filter-key">
+                        <option disabled selected value="">Member of Organization...</option>
                         <option value="deathEater">Member of the Death Eaters</option>
                         <option value="dumbledoresArmy">Member of Dumbledore's Army</option>
                         <option value="orderOfThePhoenix">Member of The Order of The Phoenix</option>

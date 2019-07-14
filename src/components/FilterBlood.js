@@ -21,6 +21,7 @@ class FilterBlood extends Component {
         <section>
             <form class="form-blood">
                 <select class="blood-filter" name="filter-blood-key">
+                    <option disabled selected value="">Blood Status</option>
                     <option value="pure-blood">Pure Blood</option>
                     <option value="half-blood">Half Blood</option>
                     <option value="muggle-born">Muggle Born</option>

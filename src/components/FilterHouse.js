@@ -21,6 +21,7 @@ class FilterHouse extends Component {
             <section>
                 <form class="form-house">
                     <select class="house-filter" name="filter-house-key">
+                        <option disabled selected value="">Hogwarts Houses</option>
                         <option value="Gryffindor">Gryffindor</option>
                         <option value="Ravenclaw">Ravenclaw</option>
                         <option value="Hufflepuff">Hufflepuff</option>
