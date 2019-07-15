@@ -27,19 +27,19 @@ class HPItem extends Component {
                 </li> 
             `;
         } else {
-        return /*html*/`
-            <li class="hp-item">
-                <h3>${character.name} <span class="feet">👣</span></h3>
-                <section class="hidden">
-                    <hr>
-                    <p class="card-text">House: ${character.house}</p>
-                    <p class="card-text">School: ${character.school}</p>
-                    <p class="card-text">Blood Status: ${character.bloodStatus}</p>
-                    <img id="crest" src="../../assets/${character.house}.jpg">
-                </section>
-            </li> 
-            `;
-        }
+            return /*html*/`
+                <li class="hp-item">
+                    <h3>${character.name} <span class="feet">👣</span></h3>
+                    <section class="hidden">
+                        <hr>
+                        <p class="card-text">House: ${character.house}</p>
+                        <p class="card-text">School: ${character.school}</p>
+                        <p class="card-text">Blood Status: ${character.bloodStatus}</p>
+                        <img id="crest" src="../../assets/${character.house}.jpg">
+                    </section>
+                </li> 
+                `;
+            }
     }
 }
 
