@@ -18,17 +18,17 @@ class FilterBlood extends Component {
 
     renderTemplate() {
         return /*html*/`
-        <section>
-            <form class="form-blood">
-                <select class="blood-filter" name="filter-blood-key">
-                    <option disabled selected value="">Blood Status</option>
-                    <option value="pure-blood">Pure Blood</option>
-                    <option value="half-blood">Half Blood</option>
-                    <option value="muggle-born">Muggle Born</option>
-                </select>
-                <button class="blood-filter-button">Add Filter</button>
-            </form>
-        </section>
+            <section>
+                <form class="form-blood">
+                    <select class="blood-filter" name="filter-blood-key">
+                        <option disabled selected value="">Blood Status</option>
+                        <option value="pure-blood">Pure Blood</option>
+                        <option value="half-blood">Half Blood</option>
+                        <option value="muggle-born">Muggle Born</option>
+                    </select>
+                    <button class="blood-filter-button">Add Filter</button>
+                </form>
+            </section>
         `;
     }
 }

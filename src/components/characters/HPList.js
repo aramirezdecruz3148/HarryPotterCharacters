@@ -15,8 +15,7 @@ class HPList extends Component {
 
     renderTemplate() {
         return /*html*/`
-            <ul class="hp-list">
-            </ul>
+            <ul class="hp-list"></ul>
         `;
     }
 }
