@@ -5,6 +5,7 @@ class SpellHeader extends Component {
     return /*html*/`
         <header>
           <img src="./assets/title.png" alt="hp logo">
+          <button id="characters"><a href="/characters.html">Directory of Characters</a></button>
         </header>
     `;
   }

@@ -26,8 +26,8 @@ class CharacterHeader extends Component {
         return /*html*/`
             <header>
                 <img src="./assets/title.png" alt="hp logo">
-                <span>
-                </span>
+                <button id="spells"><a href="/spells.html">Directory of Spells</a></button>
+                <span></span>
             </header>
         `;
     }
