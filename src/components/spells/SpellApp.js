@@ -2,7 +2,6 @@ import Component from '../shared/Component.js';
 import SpellHeader from './SpellHeader.js';
 import Loading from '../shared/Loading.js';
 import SpellList from './SpellList.js';
-import Search from './Search.js';
 import hpApi from '../../services/hpApi.js';
 
 class SpellApp extends Component {
@@ -12,9 +11,6 @@ class SpellApp extends Component {
 
         const spellHeader = new SpellHeader();
         dom.insertBefore(spellHeader.render(), main);
-
-        const search = new Search();
-        main.appendChild(search.render());
 
         const spellList = new SpellList({ spells: [] });
         main.appendChild(spellList.render());
