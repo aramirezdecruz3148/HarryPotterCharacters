@@ -12,12 +12,8 @@
                     list.appendChild(spellItem.render());
                 }
             });
-<<<<<<< HEAD
          });
 I have learned that it is possible to use .filter() to make the spells 
 searchable, but need to think more about data flow between components,
 and also might wanna think about putting it into a form so I can make it
 reset-able, or adding a reset button?
-=======
-         })
->>>>>>> d1f7237c728f46120f02de7340f0a42b76389679
