@@ -19,9 +19,10 @@ class SpellApp extends Component {
     main.appendChild(loading.render());
 
     function loadSpells() {
+      const params = window.location.hash.slice(1);
       loading.update({ loaded: true });
 
-      hpApi.getSpells()
+      hpApi.getSpells(params)
           .then(response => {
               spellList.update({ spells: response });
           })
