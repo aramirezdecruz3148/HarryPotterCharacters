@@ -1,10 +1,18 @@
 import key from '../../config.js';
 
-const URL = `https://www.potterapi.com/v1/characters/?key=${key}`;
+const URLCHARACTERS = `https://www.potterapi.com/v1/characters/?key=${key}`;
+const URLSPELLS = `https://www.potterapi.com/v1/spells/?key=${key}`;
 
 const hpApi = { 
     getCharacters(params) {
-        return fetch(`${URL}&${params}`)
+        return fetch(`${URLCHARACTERS}&${params}`)
+            .then(response => {
+                return response.json();
+            });
+    },
+
+    getSpells(params) {
+        return fetch(`${URLSPELLS}&${params}`)
             .then(response => {
                 return response.json();
             });

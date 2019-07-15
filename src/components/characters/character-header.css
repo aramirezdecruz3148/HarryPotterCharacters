@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
+
+header {
+    font-family: 'Bitter', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: 300px;
+    margin: 0;
+}
+
+header img {
+    height: auto;
+    width: 450px;
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+
+span {
+    display: inline-flex;
+}
+
+.form-org {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.form-blood {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.form-house {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.org-filter {
+    background-color: rgb(210, 209, 209);
+    border: 2px solid rgb(229, 229, 229);
+    font-family: 'Bitter', serif;
+    font-size: 1em;
+    color: #23263A;
+}
+
+.blood-filter {
+    background-color: rgb(210, 209, 209);
+    border: 2px solid rgb(229, 229, 229);
+    font-family: 'Bitter', serif;
+    font-size: 1em;
+    color: #23263A;
+}
+
+.house-filter {
+    background-color: rgb(210, 209, 209);
+    border: 2px solid rgb(229, 229, 229);
+    font-family: 'Bitter', serif;
+    font-size: 1em;
+    color: #23263A;
+}
+
+.house-filter-button {
+    background-color: #668C8C;
+    color: rgb(233, 233, 233);
+    border: 2px solid rgb(229, 229, 229);
+    font-family: 'Bitter', serif;
+    font-size: 1em;
+}
+
+.house-filter-button:hover {
+    background-color: rgb(71, 97, 97);
+}
+
+.blood-filter-button {
+    background-color: #668C8C;
+    color: rgb(233, 233, 233);
+    border: 2px solid rgb(229, 229, 229);
+    font-family: 'Bitter', serif;
+    font-size: 1em;
+}
+
+.blood-filter-button:hover {
+    background-color: rgb(71, 97, 97);
+}
+
+.org-filter-button {
+    background-color: #668C8C;
+    color: rgb(233, 233, 233);
+    border: 2px solid rgb(229, 229, 229);
+    font-family: 'Bitter', serif;
+    font-size: 1em;
+}
+
+.org-filter-button:hover {
+    background-color: rgb(71, 97, 97);
+}
+
+#reset {
+    margin-top: 15px;
+    background-color: rgb(34, 50, 70);
+    height: 45px;
+}
+
+#reset:hover {
+    transition: .4s;
+    transform: scale(1.2);
+    background-color: rgb(44, 89, 143);
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.7em;
+    font-family: 'Bitter', serif;
+    color: rgb(196, 196, 196);
+    border-radius: none;
+}
+
+
+
+
+
