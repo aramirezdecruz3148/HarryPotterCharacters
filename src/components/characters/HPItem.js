@@ -14,7 +14,7 @@ class HPItem extends Component {
                     </section>
                 </li> 
                 `;
-        } else if (character.house === undefined || character.school === undefined) {
+        } else if(character.house === undefined || character.school === undefined) {
             return /*html*/`
                 <li class="hp-item">  
                     <h3>${character.name} <span class="feet">👣</span></h3>
