@@ -11,8 +11,8 @@ const hpApi = {
             });
     },
 
-    getSpells(params) {
-        return fetch(`${URLSPELLS}&${params}`)
+    getSpells() {
+        return fetch(`${URLSPELLS}`)
             .then(response => {
                 return response.json();
             });
