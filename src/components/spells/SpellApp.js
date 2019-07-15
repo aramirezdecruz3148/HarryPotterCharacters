@@ -22,7 +22,7 @@ class SpellApp extends Component {
           const params = window.location.hash.slice(1);
           loading.update({ loaded: true });
 
-          hpApi.getSpells(params)
+          hpApi.getSpells()
               .then(response => {
                   spellList.update({ spells: response });
               })
@@ -35,11 +35,6 @@ class SpellApp extends Component {
       }
 
       loadSpells();
-
-      window.addEventListener('hashchange', () => {
-          loadSpells();
-      });
-
         return dom;
     }
 
