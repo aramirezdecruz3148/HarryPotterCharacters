@@ -13,3 +13,29 @@ header img {
   margin-bottom: 8px;
   margin-top: 10px;
 }
+
+#home-directory:hover {
+  transition: .3s;
+  transform: scale(1.2);
+}
+
+#characters-directory {
+  margin-top: -5px;
+  background-color: maroon;
+  height: 45px;
+  padding: 10px;
+}
+
+#characters-directory:hover {
+  transition: .4s;
+  transform: scale(1.2);
+  background-color: rgb(205, 13, 13);
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.8em;
+  font-family: 'Bitter', serif;
+  color: rgb(233, 233, 233);
+  border-radius: none;
+}

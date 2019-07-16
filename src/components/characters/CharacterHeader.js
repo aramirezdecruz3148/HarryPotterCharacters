@@ -18,16 +18,16 @@ class CharacterHeader extends Component {
         span.appendChild(filterBlood.render());
         
         const reset = new Reset();
-        header.appendChild(reset.render());
+        span.appendChild(reset.render());
         return header;
     }
     
     renderTemplate() {        
         return /*html*/`
             <header>
-                <img src="./assets/title.png" alt="hp logo">
-                <span>
-                </span>
+                <a id="home-directory" href="index.html"><img src="./assets/title.png" alt="hp logo"></a>
+                <button id="spells-directory"><a href="/spells.html">Directory of Spells</a></button>
+                <span></span>
             </header>
         `;
     }

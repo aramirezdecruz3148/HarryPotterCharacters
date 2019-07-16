@@ -8,6 +8,7 @@ header {
     width: auto;
     height: 300px;
     margin: 0;
+    margin-bottom: 10px;
 }
 
 header img {
@@ -19,6 +20,25 @@ header img {
 
 span {
     display: inline-flex;
+}
+
+#home-directory:hover {
+    transition: .3s;
+    transform: scale(1.2);
+}
+
+#spells-directory {
+    margin-top: -5px;
+    margin-bottom: 15px;
+    background-color: maroon;
+    height: 45px;
+    padding: 10px;
+}
+
+#spells-directory:hover {
+    transition: .4s;
+    transform: scale(1.2);
+    background-color: rgb(205, 13, 13);
 }
 
 .form-org {
@@ -97,22 +117,24 @@ span {
 }
 
 #reset {
-    margin-top: 15px;
-    background-color: rgb(34, 50, 70);
-    height: 45px;
+    background-color: #668C8C;
+    color: rgb(233, 233, 233);
+    border: 2px solid rgb(229, 229, 229);
+    font-family: 'Bitter', serif;
+    margin-top: -2px;
 }
 
 #reset:hover {
     transition: .4s;
     transform: scale(1.2);
-    background-color: rgb(44, 89, 143);
+    background-color: rgb(71, 97, 97);
 }
 
 a {
     text-decoration: none;
     font-size: 1.7em;
     font-family: 'Bitter', serif;
-    color: rgb(196, 196, 196);
+    color: rgb(233, 233, 233);
     border-radius: none;
 }
 
