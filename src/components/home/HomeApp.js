@@ -1,6 +1,7 @@
 import Component from '../shared/Component.js';
 import HomeHeader from './HomeHeader.js';
 import HomeDescription from './HomeDescription.js';
+import DirectoryLinks from './DirectoryLinks.js';
 
 class HomeApp extends Component {
     render() {
@@ -12,6 +13,9 @@ class HomeApp extends Component {
 
         const homeDescription = new HomeDescription();
         main.appendChild(homeDescription.render());
+
+        const directoryLinks = new DirectoryLinks();
+        main.appendChild(directoryLinks.render());
 
         return dom;
     }
