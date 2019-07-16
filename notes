@@ -15,5 +15,4 @@ I have learned that it is possible to use .filter() to make the spells
 searchable, but need to think more about data flow between components,
 and also might wanna think about putting it into a form so I can make it
 reset-able, or adding a reset button?
-//need to adjust all items on page so they are centered and not dependent
-on margins
+
