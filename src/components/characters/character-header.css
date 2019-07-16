@@ -8,6 +8,7 @@ header {
     width: auto;
     height: 300px;
     margin: 0;
+    margin-bottom: 10px;
 }
 
 header img {
@@ -19,6 +20,25 @@ header img {
 
 span {
     display: inline-flex;
+}
+
+#home-directory:hover {
+    transition: .3s;
+    transform: scale(1.2);
+}
+
+#spells-directory {
+    margin-top: -5px;
+    margin-bottom: 10px;
+    background-color: maroon;
+    height: 45px;
+    padding: 10px;
+}
+
+#spells-directory:hover {
+    transition: .4s;
+    transform: scale(1.2);
+    background-color: rgb(205, 13, 13);
 }
 
 .form-org {

@@ -25,8 +25,8 @@ class CharacterHeader extends Component {
     renderTemplate() {        
         return /*html*/`
             <header>
-                <img src="./assets/title.png" alt="hp logo">
-                <button id="spells"><a href="/spells.html">Directory of Spells</a></button>
+                <a id="home-directory" href="index.html"><img src="./assets/title.png" alt="hp logo"></a>
+                <button id="spells-directory"><a href="/spells.html">Directory of Spells</a></button>
                 <span></span>
             </header>
         `;
