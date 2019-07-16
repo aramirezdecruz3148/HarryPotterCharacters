@@ -18,7 +18,7 @@ class CharacterHeader extends Component {
         span.appendChild(filterBlood.render());
         
         const reset = new Reset();
-        header.appendChild(reset.render());
+        span.appendChild(reset.render());
         return header;
     }
     
