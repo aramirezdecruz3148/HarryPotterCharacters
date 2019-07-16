@@ -10,7 +10,6 @@ class HomeApp extends Component {
         
         onload = function animateText() {
             audio.src= '../../../assets/hp-theme.mp3';
-           
         };
 
         const homeHeader = new HomeHeader();
