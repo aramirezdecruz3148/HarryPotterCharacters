@@ -14,3 +14,27 @@ header img {
     margin-bottom: 8px;
     margin-top: 10px;
 }
+
+.animate {	
+    animation-name: title;	
+    animation-duration: 4s;	
+    animation-iteration-count: 1;	
+    opacity: 1;		
+}	
+
+ @keyframes title {	
+    from {opacity: 0}	
+    to {opacity: 1}	
+}	
+@-o-keyframes title{	
+    from {opacity: 0}	
+    to {opacity: 1}	
+}	
+@-moz-keyframes title{	
+    from {opacity: 0}	
+    to {opacity: 1}	
+}	
+@-webkit-keyframes title{	
+    from {opacity: 0}	
+    to {opacity: 1}	
+} 
