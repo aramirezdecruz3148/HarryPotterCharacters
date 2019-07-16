@@ -83,3 +83,44 @@ hr {
     color: rgb(77, 77, 77);
     border: solid 1px;
 }
+
+.title {
+    font-size: 1.7em;
+}
+
+#spells-directory {
+    margin-bottom: 15px;
+    margin-left: 60px;
+    background-color: maroon;
+    height: 45px;
+    padding: 10px;
+}
+
+#spells-directory:hover {
+    background-color: rgb(205, 13, 13);
+}
+
+#characters-directory {
+    margin-left: 46px;
+    margin-bottom: 15px;
+    background-color: maroon;
+    height: 45px;
+    padding: 10px;
+  }
+  
+  #characters-directory:hover {
+    background-color: rgb(205, 13, 13);
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 1.8em;
+    font-family: 'Bitter', serif;
+    color: rgb(233, 233, 233);
+    border-radius: none;
+  }
+
+  .card-text {
+      font-style: italic;
+      font-size: 1.2em;
+  }
