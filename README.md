@@ -6,4 +6,8 @@ I created this project as a directory and resource for all characters and spells
 You can view and interact with my deployed project here: https://harry-potter-directory.netlify.com/
 
 ### The Tech ###
-This project was created using JavaScript components and the Harry Potter API: https://www.potterapi.com/./
+This project was created using:
+* JavaScript components
+* HTML/CSS
+* Harry Potter API: https://www.potterapi.com/
+
